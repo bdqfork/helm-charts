@@ -16,7 +16,7 @@ global:
   port: ""
   enableTLS: false
   image:
-    tag: "0.8.0"
+    tag: "0.8.2"
   edition: "SELF_HOSTED"
   storageType: "s3"
   runtimeClassName: ""
