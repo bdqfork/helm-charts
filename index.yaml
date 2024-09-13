@@ -1,3 +1,15 @@
 apiVersion: v1
-entries: {}
-generated: "2024-09-13T08:31:28.486154526Z"
+entries:
+  dify:
+  - apiVersion: v2
+    appVersion: 0.8.2
+    created: "2024-09-13T08:33:28.593615326Z"
+    description: A Helm chart for Kubernetes
+    digest: a8530fe91dc968701de2b9aec566f0996a8e7d7403e948d14e72fcb2f261ea72
+    home: https://github.com/langgenius/dify
+    name: dify
+    type: application
+    urls:
+    - dify-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-09-13T08:33:28.59309103Z"
