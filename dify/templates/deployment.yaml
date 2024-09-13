@@ -28,7 +28,7 @@ spec:
         {{- include "dify.global.labels" . | nindent 8 }}
     spec:
       {{- with .Values.global.runtimeClassName}}
-      runtimeClassName: .
+      runtimeClassName: {{.}}
       {{- end}}
       {{- with .Values.api.imagePullSecrets }}
       imagePullSecrets:
@@ -134,7 +134,7 @@ spec:
         {{- include "dify.global.labels" . | nindent 8 }}
     spec:
       {{- with .Values.global.runtimeClassName}}
-      runtimeClassName: .
+      runtimeClassName: {{.}}
       {{- end}}
       {{- with .Values.worker.imagePullSecrets }}
       imagePullSecrets:
@@ -223,7 +223,7 @@ spec:
         {{- include "dify.global.labels" . | nindent 8 }}
     spec:
       {{- with .Values.global.runtimeClassName}}
-      runtimeClassName: .
+      runtimeClassName: {{.}}
       {{- end}}
       {{- with .Values.frontend.imagePullSecrets }}
       imagePullSecrets:
