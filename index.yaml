@@ -3,7 +3,7 @@ entries:
   dify:
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2024-10-13T23:55:16.588128307+08:00"
+    created: "2024-10-14T00:00:08.428394822+08:00"
     description: A Helm chart for Kubernetes
     digest: 217b84cc060f7343e438e92bcd4e283fd780061cd672b5f3656bd985c231938f
     home: https://github.com/langgenius/dify
@@ -14,7 +14,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2024-10-13T23:55:16.587283907+08:00"
+    created: "2024-10-14T00:00:08.427576822+08:00"
     description: A Helm chart for Kubernetes
     digest: a8530fe91dc968701de2b9aec566f0996a8e7d7403e948d14e72fcb2f261ea72
     home: https://github.com/langgenius/dify
@@ -26,7 +26,17 @@ entries:
   ollama:
   - apiVersion: v2
     appVersion: 0.3.13
-    created: "2024-10-13T23:55:16.588523407+08:00"
+    created: "2024-10-14T00:00:08.429179122+08:00"
+    description: A Helm chart for Kubernetes
+    digest: fd3572ccc1a0b82434ac2a8c7426e8c6840c31eb48e63c2270bbcf8101611478
+    name: ollama
+    type: application
+    urls:
+    - ollama-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 0.3.13
+    created: "2024-10-14T00:00:08.428786922+08:00"
     description: A Helm chart for Kubernetes
     digest: d7561495da3b8f1e0a30b5790f3675c2344e1628c1765ab9348c5ff9e720175a
     name: ollama
@@ -34,4 +44,4 @@ entries:
     urls:
     - ollama-0.0.1.tgz
     version: 0.0.1
-generated: "2024-10-13T23:55:16.585519607+08:00"
+generated: "2024-10-14T00:00:08.426566622+08:00"
